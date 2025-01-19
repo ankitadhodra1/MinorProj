@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins';
+      background-color: #f4f4f9;
+      color: #333;
+      line-height: 1.6; 
+    }
+
+    header {
+      position: fixed; 
+      background-color: #3230a4;
+      color: white;
+      padding: 15px 20px;
+      width: 100%;
+      top: 0;
+     
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #ffd600; 
+    }
+    .hero {
+      height: 100vh;
+      background: linear-gradient(135deg, #6200ea, #3700b3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding-top: 60px; 
+    }
+
+    .hero-content h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    .hero-content p {
+      font-size: 20px;
+      margin: 10px 0 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">MY PORTFOLIO</div>
+      <ul class="nav-links">
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="skills.html">My Skills</a></li>
+        <li><a href="projects.html">My Projects</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm Ankita</h1>
+      <p>Web Developer | Problem Solver<br>
+      Currently pursuing BE-CSE from CHANDIGARH UNIVERSITY</p>
+    </div>
+  </section>
+</body>
+</html>
